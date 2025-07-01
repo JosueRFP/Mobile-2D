@@ -3,7 +3,7 @@ using UnityEngine;
 public class CardsColection : MonoBehaviour
 {
     [SerializeField][Min(1)] int gridCardsLimit = 1;
-    [SerializeField][Min(0)] int cardsAmount = 1;
+    [SerializeField][Min(0)] int cardsAmount = 0;
     [SerializeField] GameObject card;
     [SerializeField] GameObject grid;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
